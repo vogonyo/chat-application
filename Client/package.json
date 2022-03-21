@@ -1,0 +1,30 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.2.2",
+    "@material-ui/icons": "^2.0.1",
+    "react": "^16.4.1",
+    "react-bell-icon": "^1.0.0",
+    "react-dom": "^16.4.1",
+    "react-error-boundary-component-fallback2": "^1.0.0",
+    "react-scripts": "1.1.4",
+    "react-stomp": "^4.2.0",
+    "sockjs-client": "^1.1.5"
+  },
+  "proxy": {
+    "/": {
+      "target": "http://localhost:8080"
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "create-react-component-folder": "^0.1.30"
+  }
+}
